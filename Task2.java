@@ -4,7 +4,9 @@ public class Task2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter First String: ");
         String str1 = sc.nextLine().toLowerCase();
+        System.out.print("Enter First String: ");
         String str2 = sc.nextLine().toLowerCase();
 
         if (str1.length() != str2.length())
@@ -18,7 +20,7 @@ public class Task2 {
 
             Arrays.sort(ch1);
             Arrays.sort(ch2);
-            
+
             if (Arrays.equals(ch1, ch2))
                 System.out.println("true");
             else
